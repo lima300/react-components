@@ -1,6 +1,7 @@
 body {
   color: #3e3f5d;
-  font-family: "Euclid Circular A", "Poppins";
+  font-family: "Inter", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 #root {

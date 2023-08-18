@@ -1,8 +1,9 @@
 // import { Accordion } from "./components/accordion/Accordion";
-import { Carousel } from "./components/carousel/Carousel";
+import { Card } from "./components/card/Card";
+// import { Carousel } from "./components/carousel/Carousel";
 
 function App() {
-  return <Carousel />;
+  return <Card />;
 }
 
 export default App;
