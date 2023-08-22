@@ -1,0 +1,32 @@
+/* Sidebar.css */
+
+.sidebar {
+  width: 60px;
+  height: 100%;
+  background-color: #283618;
+  color: white;
+  transition: width 0.75s ease;
+  overflow: hidden;
+  border-radius: 10px 0px 0px 10px;
+  padding: 18px 18px 18px 10px;
+  box-sizing: border-box;
+}
+
+.sidebar.open {
+  width: 200px;
+}
+
+.sidebar-item {
+  display: flex;
+  flex-wrap: nowrap;
+  margin-top: 18px;
+  align-items: center;
+  gap: 18px;
+  padding: 8px;
+  border-radius: 10px;
+}
+
+.sidebar-item:hover {
+  cursor: pointer;
+  background-color: #606c38;
+}
