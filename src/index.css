@@ -1,9 +1,13 @@
-/* @tailwind base;
+@tailwind base;
 @tailwind components;
-@tailwind utilities; */
+@tailwind utilities;
 * {
+  border: 0;
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
+
 body {
   color: #3e3f5d;
   font-family: "Inter", sans-serif;
