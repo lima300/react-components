@@ -6,20 +6,10 @@ import { ToggleSwitch } from "components/toggleSwitch/ToggleSwitch";
 import { MediaPlayer } from "components/mediaPlayer/MediaPlayer";
 import Sidebar from "components/sidebar/Sidebar";
 import { Carousel } from "components/carousel/Carousel";
+import { TimingFunctions } from "./components/timingFunctions/TimingFunctions";
 
 function App() {
-  return (
-    <>
-      <Login />
-      <Accordion />
-      <Card />
-      <LiquidButton />
-      <ToggleSwitch />
-      <MediaPlayer />
-      <Sidebar />
-      <Carousel />
-    </>
-  );
+  return <TimingFunctions />;
 }
 
 export default App;

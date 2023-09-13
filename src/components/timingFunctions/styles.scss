@@ -1,0 +1,84 @@
+.container {
+  width: 250px;
+}
+
+.title {
+  color: white;
+  font-weight: 100;
+  font-size: 16px;
+  text-align: center;
+}
+
+.line {
+  background-image: linear-gradient(to top right, #4ade80, #06b6d4);
+  height: 3px;
+  width: 0;
+  content: "";
+  display: block;
+}
+
+.unit {
+  width: 100%;
+  border-radius: 8px;
+  background-color: #312e33;
+  overflow: hidden;
+  margin-top: 24px;
+}
+.u1:hover {
+  cursor: pointer;
+  .line {
+    animation: width-grow 1s normal forwards linear;
+  }
+}
+.u2:hover {
+  cursor: pointer;
+  .line {
+    animation: width-grow 1s normal forwards ease;
+  }
+}
+
+.u3:hover {
+  cursor: pointer;
+  .line {
+    animation: width-grow 1s normal forwards ease-in;
+  }
+}
+
+.u4:hover {
+  cursor: pointer;
+  .line {
+    animation: width-grow 1s normal forwards ease-out;
+  }
+}
+
+.u5:hover {
+  cursor: pointer;
+  .line {
+    animation: width-grow 1s normal forwards ease-in-out;
+  }
+}
+
+.u6:hover {
+  cursor: pointer;
+  .line {
+    animation: width-grow 1s normal forwards cubic-bezier(0.3, 0.9, 0.8, 0);
+  }
+}
+
+.u7:hover {
+  cursor: pointer;
+  .line {
+    animation: width-grow 1s normal forwards steps(5);
+  }
+}
+
+.unit-title {
+  color: white;
+  margin: 12px 0 7px 12px;
+}
+
+@keyframes width-grow {
+  100% {
+    width: 100%;
+  }
+}

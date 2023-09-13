@@ -1,6 +1,6 @@
-@tailwind base;
+/* @tailwind base;
 @tailwind components;
-@tailwind utilities;
+@tailwind utilities; */
 * {
   border: 0;
   box-sizing: border-box;
@@ -8,20 +8,21 @@
   padding: 0;
 }
 
-/* body {
+body {
   color: #3e3f5d;
-  font-family: "Inter", sans-serif;
-  font-family: "Roboto", sans-serif;
-  background-image: linear-gradient(to top right, #4ade80, #06b6d4);
+  /* font-family: "Inter", sans-serif;
+  font-family: "Roboto", sans-serif; */
+  /* background-image: linear-gradient(to top right, #4ade80, #06b6d4); */
   background-color: black;
-} */
+  font-family: "Euclid Circular A", sans-serif;
+}
 
 @keyframes background {
   100% {
     background-size: 4000px 1000px;
   }
 }
-body {
+/* body {
   display: grid;
   place-items: center;
   margin: 0;
@@ -32,7 +33,7 @@ body {
   color: #f9f9f9;
   font-family: "Euclid Circular A", sans-serif;
   animation: background 10s infinite alternate linear;
-}
+} */
 @media (width >= 500px) {
   body {
     padding: 0;
