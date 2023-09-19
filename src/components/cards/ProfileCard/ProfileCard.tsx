@@ -14,7 +14,7 @@ import instagram from "./assets/instagram.svg";
 import linkedIn from "./assets/linkedin.svg";
 import facebook from "./assets/facebook.svg";
 
-export const Card = () => {
+export const ProfileCard = () => {
   return (
     <div className="card-container">
       <Atropos className="atropos-header">

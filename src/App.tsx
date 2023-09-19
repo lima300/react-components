@@ -6,10 +6,11 @@
 // import { MediaPlayer } from "components/mediaPlayer/MediaPlayer";
 // import Sidebar from "components/sidebar/Sidebar";
 // import { Carousel } from "components/carousel/Carousel";
-import { TimingFunctions } from "./components/timingFunctions/TimingFunctions";
+import { ProductCard } from "./components/cards/ProductCard/ProductCard";
+// import { TimingFunctions } from "./components/timingFunctions/TimingFunctions";
 
 function App() {
-  return <TimingFunctions />;
+  return <ProductCard />;
 }
 
 export default App;
