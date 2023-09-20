@@ -1,0 +1,97 @@
+.selectors-container {
+  width: 300px;
+}
+
+.title {
+  color: white;
+  font-weight: 100;
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 45px;
+}
+
+.unit {
+  width: 100%;
+  border-radius: 8px;
+  overflow: hidden;
+  margin-top: 6px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.children {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 4px;
+  margin-right: 12px;
+}
+
+.child {
+  background-color: #5a525e;
+  width: 16px;
+  height: 16px;
+  border-radius: 2px;
+}
+.u1:hover {
+  background-color: #312e33;
+
+  .children div:first-child {
+    background-color: #4ade80;
+  }
+}
+.u2:hover {
+  background-color: #312e33;
+  .children div:last-child {
+    background-color: #4ade80;
+  }
+}
+
+.u3:hover {
+  background-color: #312e33;
+  .children div:nth-child(2) {
+    background-color: #4ade80;
+  }
+}
+
+.u4:hover {
+  background-color: #312e33;
+  .children div:nth-last-child(2) {
+    background-color: #4ade80;
+  }
+}
+
+.u5:hover {
+  background-color: #312e33;
+  .children div:nth-child(odd) {
+    background-color: #4ade80;
+  }
+}
+
+.u6:hover {
+  background-color: #312e33;
+  .children div:nth-child(even) {
+    background-color: #4ade80;
+  }
+}
+
+.u7:hover {
+  background-color: #312e33;
+  .children div:nth-child(3n) {
+    background-color: #4ade80;
+  }
+}
+
+.u8:hover {
+  background-color: #312e33;
+  .children div:nth-child(n + 3) {
+    background-color: #4ade80;
+  }
+}
+
+.unit-title {
+  color: white;
+  font-size: 16px;
+  margin: 12px 0 7px 12px;
+}

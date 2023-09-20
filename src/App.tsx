@@ -6,11 +6,12 @@
 // import { MediaPlayer } from "components/mediaPlayer/MediaPlayer";
 // import Sidebar from "components/sidebar/Sidebar";
 // import { Carousel } from "components/carousel/Carousel";
-import { ProductCard } from "./components/cards/ProductCard/ProductCard";
+// import { ProductCard } from "./components/cards/ProductCard/ProductCard";
+import { ChildSelectors } from "./components/childSelectors/ChildSelectors";
 // import { TimingFunctions } from "./components/timingFunctions/TimingFunctions";
 
 function App() {
-  return <ProductCard />;
+  return <ChildSelectors />;
 }
 
 export default App;
