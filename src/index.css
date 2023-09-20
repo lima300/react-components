@@ -1,6 +1,6 @@
-/* @tailwind base;
+@tailwind base;
 @tailwind components;
-@tailwind utilities; */
+@tailwind utilities;
 * {
   border: 0;
   box-sizing: border-box;
@@ -41,7 +41,7 @@ body {
 }
 
 #root {
-  width: 100vh;
+  width: 100%;
   height: 100vh;
   display: flex;
   align-items: center;
