@@ -7,11 +7,13 @@
 // import Sidebar from "components/sidebar/Sidebar";
 // import { Carousel } from "components/carousel/Carousel";
 // import { ProductCard } from "./components/cards/ProductCard/ProductCard";
-import { ChildSelectors } from "./components/childSelectors/ChildSelectors";
+// import { ChildSelectors } from "./components/childSelectors/ChildSelectors";
 // import { TimingFunctions } from "./components/timingFunctions/TimingFunctions";
 
+import { BlobMorphing } from "./components/blobMorphing/BlobMorphing";
+
 function App() {
-  return <ChildSelectors />;
+  return <BlobMorphing />;
 }
 
 export default App;

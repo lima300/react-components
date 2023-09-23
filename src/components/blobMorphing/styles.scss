@@ -1,0 +1,24 @@
+@keyframes morph {
+  0%,
+  100% {
+    border-radius: 42% 56% 72% 28% / 42% 42% 56% 48%;
+  }
+  33% {
+    border-radius: 72% 28% 48% 48% / 28% 28% 72% 72%;
+  }
+  66% {
+    border-radius: 100% 56% 56% 100% / 100% 100% 56% 56%;
+  }
+}
+
+.blob {
+  overflow: hidden;
+  width: 16rem;
+  height: 16rem;
+  border-radius: 42% 56% 72% 28% / 42% 42% 56% 48%;
+  background: #8f44fd
+    url("https://www.xtrafondos.com/wallpapers/glenwood-springs-en-colorado-6641.jpg");
+  background-size: cover;
+  background-position: center;
+  animation: morph 3.75s linear infinite;
+}
