@@ -1,0 +1,41 @@
+.selectors-container {
+  width: 300px;
+}
+
+.title {
+  color: white;
+  font-weight: 100;
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 45px;
+}
+
+.unit {
+  width: 100%;
+  border-radius: 8px;
+  overflow: hidden;
+  margin-top: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #151416;
+}
+
+.image > img {
+  width: 100%;
+  height: auto;
+  border-radius: 24px;
+  margin-bottom: 24px;
+  transition: all 0.5s;
+}
+
+.unit:hover {
+  background-color: #312e33;
+  cursor: pointer;
+}
+
+.unit-title {
+  color: white;
+  font-size: 16px;
+  margin: 12px 0 7px 12px;
+}

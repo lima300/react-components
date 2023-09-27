@@ -10,10 +10,12 @@
 // import { ChildSelectors } from "./components/childSelectors/ChildSelectors";
 // import { TimingFunctions } from "./components/timingFunctions/TimingFunctions";
 
-import { BlobMorphing } from "./components/blobMorphing/BlobMorphing";
+import { CssFilters } from "./components/cssfilter/CssFilters";
+
+// import { BlobMorphing } from "./components/blobMorphing/BlobMorphing";
 
 function App() {
-  return <BlobMorphing />;
+  return <CssFilters />;
 }
 
 export default App;
